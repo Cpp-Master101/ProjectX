@@ -5,6 +5,7 @@
 #include "Dimon1ion.h"
 #include "KananG.h"
 #include "Rashvin.h"
+#include "Nail.cpp"
 using namespace std;
 
 class Car
@@ -24,8 +25,6 @@ private:
 	string name;
 };
 
-
-
 void main() {
 	cout << "Deploying microservices..." << endl;
 	Rashvin rashvin{ "Rashvin", 22, 188 };
@@ -43,4 +42,6 @@ void main() {
 
 	Person p;
 	p.Print();
+	Nail nail;
+	nail.Print();
 }
