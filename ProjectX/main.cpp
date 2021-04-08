@@ -1,13 +1,20 @@
 #include <iostream>
-#include "Kenan812.h"
+#include "Dimon1ion.h"
+#include "KananG.h"
+#include "Rashvin.h"
 using namespace std;
 
 class Car
 {
 public:
-	Car()
+	Car(string _name = "") : name(_name)
 	{
-		name = "BMW";
+		if (name == "")
+		{
+			name = "Unnamed";
+			return;
+		}
+		name = _name;
 	}
 	void operator()(string _name) {
 		name = _name;
@@ -24,8 +31,15 @@ private:
 void main() 
 {
 	cout << "Deploying microservices..." << endl;
+	Rashvin rashvin{ "Rashvin", 22, 188 };
+	rashvin.print();
+	cout << "New code by Dimon1ion!!!";
+	Dimon1ion d1{ "Dimon", 19 };
+	d1.Printinfo();
 	Car car;
+	Car car2("Audi");
 	car.Print();
+	car2.Print();
 	car("Mini");
 	car.Print();
 	cout << "Deploying end..."<< endl;

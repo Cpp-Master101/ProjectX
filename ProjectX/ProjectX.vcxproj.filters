@@ -21,7 +21,7 @@
     <ClCompile Include="User.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Kenan812.cpp">
+    <ClCompile Include="KananG.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,13 @@
     <ClInclude Include="User.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Kenan812.h">
+    <ClInclude Include="Rashvin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dimon1ion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KananG.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
