@@ -44,4 +44,5 @@ void main() {
 	cout << "Deploying end..."<< endl;
 	KananG Kanan1;
 	Kanan1.Print();
+	cout << "End process....";
 }
