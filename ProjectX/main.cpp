@@ -1,4 +1,7 @@
 #include <iostream>
+
+#include "Person.h"
+
 using namespace std;
 
 class Car
@@ -35,4 +38,6 @@ void main() {
 	car.Print();
 	cout << "Deploying end..."<< endl;
 
+	Person p;
+	p.Print();
 }
