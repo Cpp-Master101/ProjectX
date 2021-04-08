@@ -8,6 +8,8 @@
 #include "KananG.h"
 #include "Rashvin.h"
 #include "Nail.cpp"
+#include "Kenan812.h"
+
 using namespace std;
 
 class Car
@@ -55,4 +57,8 @@ void main()
 	p.Print();
 	Nail nail;
 	nail.Print();
+
+	Kenan812 k{ "4234 5435 4235 7677", "4364" };
+	k.Print();
+
 }
