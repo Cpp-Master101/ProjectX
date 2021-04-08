@@ -1,6 +1,13 @@
 #include <iostream>
 #include "main.h"
 
+
+#include "Person.h"
+
+#include "Dimon1ion.h"
+#include "KananG.h"
+#include "Rashvin.h"
+#include "Nail.cpp"
 using namespace std;
 
 class Car
@@ -22,9 +29,17 @@ private:
 
 
 
-void main() {
+void main() 
+{
 	cout << "Deploying microservices..." << endl;
+	Rashvin rashvin{ "Rashvin", 22, 188 };
+	rashvin.print();
+	cout << "New code by Dimon1ion!!!";
+	Dimon1ion d1{ "Dimon", 19 };
+	d1.Printinfo();
 	Car car;
+	KananG Kanan1;
+	Kanan1.Print();
 	car.Print();
 	car("Mini");
 	car.Print();
@@ -32,5 +47,10 @@ void main() {
 	Nurana n("A644", 25);
 	n.Print();
 
+	
 
+	Person p;
+	p.Print();
+	Nail nail;
+	nail.Print();
 }

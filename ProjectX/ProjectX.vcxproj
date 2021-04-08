@@ -141,10 +141,16 @@
   <ItemGroup>
     <ClCompile Include="Header.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Nail.cpp" />
     <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Rashvin.h" />
+    <ClInclude Include="Dimon1ion.h" />
+    <ClInclude Include="KananG.h" />
+    <ClInclude Include="Nail.h" />
     <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
