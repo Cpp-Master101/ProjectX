@@ -19,33 +19,13 @@ private:
 };
 
 
-class MyClass
-{
-public:
-	MyClass();
-	~MyClass();
-
-private:
-
-};
-
-MyClass::MyClass()
-{
-}
-
-MyClass::~MyClass()
-{
-}
-
 
 void main() {
-	cout << "Something" << endl;
-	cout << "Hello, world!" << endl;
-	cout << "New Hello, world!" << endl;
-	cout << "Some change" << endl;
-	cout << "Dmitriy changes" << endl;
+	cout << "Deploying microservices..." << endl;
 	Car car;
 	car.Print();
 	car("Mini");
 	car.Print();
+	cout << "Deploying end..."<< endl;
+
 }
