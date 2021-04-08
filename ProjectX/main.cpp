@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Rashvin.h"
 using namespace std;
 
 class Car
@@ -22,6 +23,8 @@ private:
 
 void main() {
 	cout << "Deploying microservices..." << endl;
+	Rashvin rashvin{ "Rashvin", 22, 188 };
+	rashvin.print();
 	Car car;
 	car.Print();
 	car("Mini");
