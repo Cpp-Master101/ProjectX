@@ -1,19 +1,19 @@
 #include <iostream>
+
+#include "Person.h"
+
 #include "Dimon1ion.h"
 #include "KananG.h"
+#include "Rashvin.h"
+#include "Nail.cpp"
 using namespace std;
 
 class Car
 {
 public:
-	Car(string _name = "") : name(_name)
+	Car()
 	{
-		if (name == "")
-		{
-			name = "Unnamed";
-			return;
-		}
-		name = _name;
+		name = "BMW";
 	}
 	void operator()(string _name) {
 		name = _name;
@@ -27,17 +27,24 @@ private:
 
 
 
-void main() {
+void main() 
+{
+	cout << "Deploying microservices..." << endl;
+	Rashvin rashvin{ "Rashvin", 22, 188 };
+	rashvin.print();
 	cout << "New code by Dimon1ion!!!";
 	Dimon1ion d1{ "Dimon", 19 };
 	d1.Printinfo();
 	Car car;
-	Car car2("Audi");
 	car.Print();
-	car2.Print();
 	car("Mini");
 	car.Print();
 	cout << "Deploying end..."<< endl;
 	KananG Kanan1;
 	Kanan1.Print();
+
+	Person p;
+	p.Print();
+	Nail nail;
+	nail.Print();
 }
