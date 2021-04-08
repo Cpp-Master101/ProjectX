@@ -1,5 +1,13 @@
 #include <iostream>
 using namespace std;
+#include "Nijat.h"
+
+void Nijat::print()
+{
+	cout << "Age: " << age << endl;
+	cout << "Name: " << name << endl;
+}
+
 
 class Car
 {
@@ -26,6 +34,9 @@ private:
 
 
 void main() {
+	Nijat object;
+	object.print();
+
 	cout << "Deploying microservices..." << endl;
 	Car car;
 	Car car2("Audi");
