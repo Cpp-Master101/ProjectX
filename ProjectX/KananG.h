@@ -10,7 +10,7 @@ private:
 public:
 	KananG()
 	{
-		id = 1;
+		id = 10;
 		age = 18;
 		surname = "Gurbanov";
 	}
