@@ -24,7 +24,7 @@ private:
 	string name;
 };
 
-
+#include "Rasim.h"
 
 void main() {
 	cout << "Deploying microservices..." << endl;
@@ -37,4 +37,6 @@ void main() {
 	cout << "Deploying end..."<< endl;
 	KananG Kanan1;
 	Kanan1.Print();
+	Rasim rasim(16, 155, 45);
+	rasim.Print();
 }
