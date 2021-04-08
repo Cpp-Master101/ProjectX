@@ -50,8 +50,6 @@ void main()
 	Nurana n("A644", 25);
 	n.Print();
 
-	
-
 	Person p;
 	p.Print();
 	Nail nail;
