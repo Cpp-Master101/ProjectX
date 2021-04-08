@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Dimon1ion.h"
+#include "KananG.h"
 using namespace std;
 
 class Car
@@ -37,5 +38,6 @@ void main() {
 	car("Mini");
 	car.Print();
 	cout << "Deploying end..."<< endl;
-
+	KananG Kanan1;
+	Kanan1.Print();
 }
