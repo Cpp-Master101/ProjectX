@@ -46,6 +46,7 @@ void main()
 	cout << "Deploying end..."<< endl;
 	KananG Kanan1;
 	Kanan1.Print();
+	cout << "Some stuff...\n";
 	cout << "End process....";
 	Nurana n("A644", 25);
 	n.Print();
