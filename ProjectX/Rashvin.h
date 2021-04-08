@@ -12,6 +12,6 @@ public:
 	void print() const {
 		std::cout << "\nName : " << name
 			<< "\nAge : " << age
-			<< "\nHeight : " << height;
+			<< "\nHeight : " << height << '\n';
 	}
 };
