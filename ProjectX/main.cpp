@@ -27,6 +27,7 @@ void main() {
 	cout << "Hello, world!" << endl;
 	cout << "New Hello, world!" << endl;
 	cout << "Some change" << endl;
+	cout << "Dmitriy changes" << endl;
 	Car car;
 	car.Print();
 	car("Mini");
