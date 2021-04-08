@@ -1,4 +1,6 @@
 #include <iostream>
+#include "main.h"
+
 using namespace std;
 
 class Car
@@ -27,5 +29,8 @@ void main() {
 	car("Mini");
 	car.Print();
 	cout << "Deploying end..."<< endl;
+	Nurana n("A644", 25);
+	n.Print();
+
 
 }
