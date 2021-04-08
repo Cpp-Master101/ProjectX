@@ -16,6 +16,6 @@ public:
 	void Printinfo() {
 		cout << "TESLA Model XXL"
 			<< "\nName: " << name
-			<< "\nAge: " << age << endl;
+			<< "\nAge: " << age;
 	}
 };
