@@ -1,5 +1,6 @@
 #pragma once
-
+#include<string>
+using namespace std;
 class Nurana {
 	string ID;
 	int age;
