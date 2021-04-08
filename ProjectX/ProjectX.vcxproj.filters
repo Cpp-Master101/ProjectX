@@ -29,6 +29,9 @@
     <ClInclude Include="User.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Rashvin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
