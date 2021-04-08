@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Dimon1ion.h"
 using namespace std;
 
 class Car
@@ -21,7 +22,9 @@ private:
 
 
 void main() {
-	cout << "Deploying microservices..." << endl;
+	cout << "New code by Dimon1ion!!!";
+	Dimon1ion d1{ "Dimon", 19 };
+	d1.Printinfo();
 	Car car;
 	car.Print();
 	car("Mini");
