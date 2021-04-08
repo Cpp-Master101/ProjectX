@@ -35,12 +35,12 @@ void main()
 	Dimon1ion d1{ "Dimon", 19 };
 	d1.Printinfo();
 	Car car;
+	KananG Kanan1;
+	Kanan1.Print();
 	car.Print();
 	car("Mini");
 	car.Print();
-	cout << "Deploying end..."<< endl;
-	KananG Kanan1;
-	Kanan1.Print();
+	
 
 	Person p;
 	p.Print();
