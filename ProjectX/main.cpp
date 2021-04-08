@@ -4,9 +4,14 @@ using namespace std;
 class Car
 {
 public:
-	Car()
+	Car(string _name = "") : name(_name)
 	{
-		name = "BMW";
+		if (name == "")
+		{
+			name = "Unnamed";
+			return;
+		}
+		name = _name;
 	}
 	void operator()(string _name) {
 		name = _name;
@@ -23,7 +28,9 @@ private:
 void main() {
 	cout << "Deploying microservices..." << endl;
 	Car car;
+	Car car2("Audi");
 	car.Print();
+	car2.Print();
 	car("Mini");
 	car.Print();
 	cout << "Deploying end..."<< endl;
